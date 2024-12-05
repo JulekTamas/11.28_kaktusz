@@ -1,0 +1,30 @@
+#kozep{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#kozep>img{
+    width: 100%;
+    height: auto;
+}
+
+/*Mobilos nézet*/
+@media only screen and (max-width: 800px)
+{
+
+    main{
+        width: 100%;
+    }
+    header{
+        padding: 0px;
+        margin: 0px;
+    }
+    #kozep{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    nav>a{
+        display: block;
+    }
+}
